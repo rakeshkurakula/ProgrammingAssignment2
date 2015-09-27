@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 # The following function returns the inverse of the matrix. It first checks if
 # the inverse has already been computed. If so, it gets the results and skips the
-# computation. If not, it computes the inverse, sets the valu in the cache via
+# computation. If not, it computes the inverse, sets the value in the cache via
 # setinverse function.
 
 # This function assumes that the matrix is always invertible
@@ -52,6 +52,7 @@ cacheSolve <- function(x, ...) {
   # Return it
   inv
 }
+<<<<<<< HEAD
 
 ## Sample run:
 ##> x = rbind(c(2, -2/4), c(-3/4, 3))
@@ -75,3 +76,5 @@ cacheSolve <- function(x, ...) {
 ##[1,] 0.5333333 0.08888889
 ##[2,] 0.1333333 0.35555556
 ## > 
+=======
+>>>>>>> origin/master
